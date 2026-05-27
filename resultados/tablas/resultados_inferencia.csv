@@ -1,0 +1,51 @@
+bloque,medida,valor
+intervalo_confianza_delta_puntos,n,28
+intervalo_confianza_delta_puntos,media_diferencia,0.641287284144427
+intervalo_confianza_delta_puntos,desvio_diferencia,0.3309359005488864
+intervalo_confianza_delta_puntos,error_estandar,0.06254100662539694
+intervalo_confianza_delta_puntos,t_critico,2.0518305164802846
+intervalo_confianza_delta_puntos,ic_inferior,0.512963738219042
+intervalo_confianza_delta_puntos,ic_superior,0.7696108300698121
+intervalo_confianza_delta_puntos,confianza,0.95
+prueba_t_puntos,prueba,t pareada
+prueba_t_puntos,hipotesis_nula,mu_d = 0
+prueba_t_puntos,hipotesis_alternativa,mu_d > 0
+prueba_t_puntos,estadistico,10.253868921323216
+prueba_t_puntos,p_valor,4.134632419830579e-11
+prueba_t_puntos,decision,Rechazar H0
+prueba_t_goles,prueba,t pareada
+prueba_t_goles,hipotesis_nula,mu_d = 0
+prueba_t_goles,hipotesis_alternativa,mu_d > 0
+prueba_t_goles,estadistico,4.041573436804972
+prueba_t_goles,p_valor,0.00019822142931880842
+prueba_t_goles,decision,Rechazar H0
+wilcoxon_puntos,prueba,Wilcoxon pareada
+wilcoxon_puntos,hipotesis_nula,la mediana de las diferencias es 0
+wilcoxon_puntos,hipotesis_alternativa,la mediana de las diferencias es mayor que 0
+wilcoxon_puntos,estadistico,405.0
+wilcoxon_puntos,p_valor,2.1111803292390004e-06
+wilcoxon_puntos,decision,Rechazar H0
+prueba_binomial_victorias,prueba,Binomial victorias local vs visitante
+prueba_binomial_victorias,victorias_local,169
+prueba_binomial_victorias,victorias_visitante,88
+prueba_binomial_victorias,partidos_con_ganador,257
+prueba_binomial_victorias,proporcion_victorias_local,0.6575875486381323
+prueba_binomial_victorias,hipotesis_nula,p = 0.5
+prueba_binomial_victorias,hipotesis_alternativa,p > 0.5
+prueba_binomial_victorias,p_valor,2.4477327118051685e-07
+prueba_binomial_victorias,decision,Rechazar H0
+chi_cuadrado_resultados,prueba,Chi-cuadrado distribución de resultados
+chi_cuadrado_resultados,chi2,51.05836575875487
+chi_cuadrado_resultados,gl,2
+chi_cuadrado_resultados,p_valor,8.181195070249586e-12
+chi_cuadrado_resultados,decision,Rechazar H0
+chebyshev,variable,Delta_Pts_PJ
+chebyshev,k,2
+chebyshev,media,0.641287284144427
+chebyshev,desvio,0.3309359005488864
+chebyshev,limite_inferior,-0.020584516953345733
+chebyshev,limite_superior,1.3031590852422
+chebyshev,cantidad_dentro,26
+chebyshev,n,28
+chebyshev,proporcion_observada,0.9285714285714286
+chebyshev,cota_minima_chebyshev,0.75

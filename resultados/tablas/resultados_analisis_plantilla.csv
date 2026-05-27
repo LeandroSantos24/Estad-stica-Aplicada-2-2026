@@ -1,0 +1,23 @@
+bloque,medida,valor
+regresion_delta,VariableObjetivo,Delta_Pts_PJ
+regresion_delta,Intercepto,0.6108183178028976
+regresion_delta,Pendiente,0.0009455699786784256
+regresion_delta,R,0.08211601043706963
+regresion_delta,R2,0.006743039170100929
+regresion_delta,p_valor,0.6778423001510273
+regresion_delta,ErrorEstandarPendiente,0.002250660394352244
+regresion_local,VariableObjetivo,Pts_PJ_Local
+regresion_local,Intercepto,1.4464905745810523
+regresion_local,Pendiente,0.0066847301656960175
+regresion_local,R,0.4866114361215283
+regresion_local,R2,0.2367906897642562
+regresion_local,p_valor,0.008643495201062232
+regresion_local,ErrorEstandarPendiente,0.0023536220593151917
+anova_grupos,prueba,ANOVA Delta_Pts_PJ por GrupoEconomico
+anova_grupos,F,0.0977753167449237
+anova_grupos,p_valor,0.9071976841884135
+anova_grupos,decision,No rechazar H0
+kruskal_grupos,prueba,Kruskal-Wallis Delta_Pts_PJ por GrupoEconomico
+kruskal_grupos,H,0.2068455640744787
+kruskal_grupos,p_valor,0.9017456510156437
+kruskal_grupos,decision,No rechazar H0
