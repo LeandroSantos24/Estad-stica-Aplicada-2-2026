@@ -1,0 +1,15 @@
+Concepto,Definicion
+Media,Promedio aritmético de un conjunto de datos.
+Mediana,Valor central de los datos ordenados.
+Varianza,Medida de dispersión que indica cuánto se alejan los datos de la media.
+Desvío estándar,Raíz cuadrada de la varianza. Mide dispersión en las mismas unidades que la variable.
+Percentil,Valor por debajo del cual se encuentra un determinado porcentaje de observaciones.
+Cuartil,"Percentiles 25, 50 y 75. Dividen los datos en cuatro partes."
+Rango intercuartílico,Diferencia entre el tercer y el primer cuartil. Mide la dispersión central.
+Z-score,Indica cuántos desvíos estándar se encuentra un valor por encima o por debajo de la media.
+p-valor,Probabilidad de obtener un resultado tan extremo como el observado si la hipótesis nula fuera verdadera.
+Hipótesis nula,Supuesto inicial que se pone a prueba estadísticamente.
+Intervalo de confianza,Rango de valores plausibles para un parámetro poblacional.
+Correlación,Medida de asociación entre dos variables.
+Regresión,Modelo que permite estudiar cómo una variable explica o predice a otra.
+ANOVA,Prueba que compara medias entre tres o más grupos.

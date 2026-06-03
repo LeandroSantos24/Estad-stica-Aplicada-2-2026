@@ -1,0 +1,6 @@
+Percentil,Valor_Delta_Pts_PJ,Interpretacion
+P10,0.34890109890109894,El 10% de los equipos tiene una ventaja de localía igual o menor a este valor.
+P25,0.4162087912087913,El 25% de los equipos está por debajo o igual a este valor.
+P50 / Mediana,0.6318681318681318,La mitad de los equipos está por debajo y la otra mitad por encima.
+P75,0.7733516483516485,El 75% de los equipos está por debajo o igual a este valor.
+P90,1.0686813186813189,El 90% de los equipos tiene una ventaja de localía igual o menor a este valor.

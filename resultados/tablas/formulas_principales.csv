@@ -1,0 +1,9 @@
+Indicador,Formula,Interpretacion
+Puntos por partido local,Pts_PJ_Local = Puntos_Local / Partidos_Local,Mide cuántos puntos obtiene un equipo por partido jugando como local.
+Puntos por partido visitante,Pts_PJ_Visitante = Puntos_Visitante / Partidos_Visitante,Mide cuántos puntos obtiene un equipo por partido jugando como visitante.
+Ventaja de localía,Delta_Pts_PJ = Pts_PJ_Local - Pts_PJ_Visitante,Mide cuánto mejora o empeora el rendimiento al jugar como local.
+Goles por partido local,GF_PJ_Local = Goles_Local / Partidos_Local,Mide la producción ofensiva como local.
+Goles por partido visitante,GF_PJ_Visitante = Goles_Visitante / Partidos_Visitante,Mide la producción ofensiva como visitante.
+Diferencia de goles por partido,Delta_GF_PJ = GF_PJ_Local - GF_PJ_Visitante,Mide la diferencia ofensiva entre jugar de local y visitante.
+Eficacia local,Eficacia_Local_% = Puntos_Local / (3 * Partidos_Local) * 100,Porcentaje de puntos obtenidos sobre el máximo posible como local.
+Porcentaje de victorias,Pct_Victorias = Victorias / Partidos * 100,Proporción de partidos ganados en una condición determinada.

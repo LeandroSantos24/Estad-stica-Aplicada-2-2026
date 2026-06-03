@@ -7,45 +7,121 @@ intervalo_confianza_delta_puntos,t_critico,2.0518305164802846
 intervalo_confianza_delta_puntos,ic_inferior,0.512963738219042
 intervalo_confianza_delta_puntos,ic_superior,0.7696108300698121
 intervalo_confianza_delta_puntos,confianza,0.95
+intervalo_confianza_delta_puntos,formula,IC = media ± t_critico * (s / sqrt(n))
+intervalo_confianza_delta_puntos,interpretacion,Intervalo estimado para la ventaja promedio de localía medida como diferencia de puntos por partido.
 prueba_t_puntos,prueba,t pareada
 prueba_t_puntos,hipotesis_nula,mu_d = 0
 prueba_t_puntos,hipotesis_alternativa,mu_d > 0
 prueba_t_puntos,estadistico,10.253868921323216
 prueba_t_puntos,p_valor,4.134632419830579e-11
+prueba_t_puntos,alpha,0.05
 prueba_t_puntos,decision,Rechazar H0
+prueba_t_puntos,interpretacion,"Compara medias relacionadas. En este caso, compara el rendimiento del mismo equipo como local y como visitante."
 prueba_t_goles,prueba,t pareada
 prueba_t_goles,hipotesis_nula,mu_d = 0
 prueba_t_goles,hipotesis_alternativa,mu_d > 0
 prueba_t_goles,estadistico,4.041573436804972
 prueba_t_goles,p_valor,0.00019822142931880842
+prueba_t_goles,alpha,0.05
 prueba_t_goles,decision,Rechazar H0
+prueba_t_goles,interpretacion,"Compara medias relacionadas. En este caso, compara el rendimiento del mismo equipo como local y como visitante."
 wilcoxon_puntos,prueba,Wilcoxon pareada
 wilcoxon_puntos,hipotesis_nula,la mediana de las diferencias es 0
 wilcoxon_puntos,hipotesis_alternativa,la mediana de las diferencias es mayor que 0
 wilcoxon_puntos,estadistico,405.0
 wilcoxon_puntos,p_valor,2.1111803292390004e-06
+wilcoxon_puntos,alpha,0.05
 wilcoxon_puntos,decision,Rechazar H0
+wilcoxon_puntos,interpretacion,Prueba no paramétrica para muestras relacionadas. Refuerza la conclusión sin depender del supuesto de normalidad.
+prueba_signo_puntos,prueba,Prueba del signo
+prueba_signo_puntos,positivos,27
+prueba_signo_puntos,negativos,1
+prueba_signo_puntos,ceros_excluidos,0
+prueba_signo_puntos,n_utilizado,28
+prueba_signo_puntos,hipotesis_nula,p = 0.5
+prueba_signo_puntos,hipotesis_alternativa,p > 0.5
+prueba_signo_puntos,p_valor,1.0803341865539551e-07
+prueba_signo_puntos,alpha,0.05
+prueba_signo_puntos,decision,Rechazar H0
+prueba_signo_puntos,interpretacion,Evalúa si la cantidad de equipos que rindieron mejor como locales es significativamente mayor a la cantidad esperada por azar.
 prueba_binomial_victorias,prueba,Binomial victorias local vs visitante
 prueba_binomial_victorias,victorias_local,169
 prueba_binomial_victorias,victorias_visitante,88
 prueba_binomial_victorias,partidos_con_ganador,257
+prueba_binomial_victorias,empates_excluidos,121
 prueba_binomial_victorias,proporcion_victorias_local,0.6575875486381323
 prueba_binomial_victorias,hipotesis_nula,p = 0.5
 prueba_binomial_victorias,hipotesis_alternativa,p > 0.5
 prueba_binomial_victorias,p_valor,2.4477327118051685e-07
+prueba_binomial_victorias,alpha,0.05
 prueba_binomial_victorias,decision,Rechazar H0
+prueba_binomial_victorias,interpretacion,"Compara si, entre los partidos con ganador, la proporción de victorias locales es mayor que la proporción de victorias visitantes."
 chi_cuadrado_resultados,prueba,Chi-cuadrado distribución de resultados
 chi_cuadrado_resultados,chi2,51.05836575875487
 chi_cuadrado_resultados,gl,2
 chi_cuadrado_resultados,p_valor,8.181195070249586e-12
+chi_cuadrado_resultados,alpha,0.05
 chi_cuadrado_resultados,decision,Rechazar H0
-chebyshev,variable,Delta_Pts_PJ
+chi_cuadrado_resultados,hipotesis_nula,resultado independiente de localía
+chi_cuadrado_resultados,hipotesis_alternativa,resultado asociado a localía
+chi_cuadrado_resultados,interpretacion,"Evalúa si la distribución de victorias, empates y derrotas depende de la condición local o visitante."
+bondad_ajuste_resultados,prueba,Bondad de ajuste resultados globales
+bondad_ajuste_resultados,chi2,26.333333333333332
+bondad_ajuste_resultados,gl,2
+bondad_ajuste_resultados,p_valor,1.9133275352423022e-06
+bondad_ajuste_resultados,alpha,0.05
+bondad_ajuste_resultados,decision,Rechazar H0
+bondad_ajuste_resultados,hipotesis_nula,las tres categorías son igualmente probables
+bondad_ajuste_resultados,hipotesis_alternativa,al menos una categoría difiere
+bondad_ajuste_resultados,victorias_locales,169
+bondad_ajuste_resultados,empates,121
+bondad_ajuste_resultados,victorias_visitantes,88
+bondad_ajuste_resultados,interpretacion,"Evalúa si las proporciones globales de victoria local, empate y victoria visitante se alejan de una distribución uniforme."
+bondad_ajuste_resultados,tabla,Tabla auxiliar exportada por separado
+prueba_varianza_delta,prueba,Hipótesis sobre una varianza
+prueba_varianza_delta,variable,Delta_Pts_PJ
+prueba_varianza_delta,n,28
+prueba_varianza_delta,varianza_muestral,0.10951857027210243
+prueba_varianza_delta,varianza_hipotetica,0.1
+prueba_varianza_delta,chi2,29.570013973467656
+prueba_varianza_delta,gl,27
+prueba_varianza_delta,p_valor,0.6676318146320588
+prueba_varianza_delta,alpha,0.05
+prueba_varianza_delta,hipotesis_nula,sigma² = 0.1
+prueba_varianza_delta,hipotesis_alternativa,sigma² != 0.1
+prueba_varianza_delta,decision,No rechazar H0
+prueba_varianza_delta,interpretacion,Contrasta si la varianza observada de la ventaja de localía difiere de una varianza de referencia.
+kolmogorov_smirnov_delta,prueba,Kolmogorov-Smirnov normalidad
+kolmogorov_smirnov_delta,variable,Delta_Pts_PJ estandarizada
+kolmogorov_smirnov_delta,estadistico,0.13996866454010082
+kolmogorov_smirnov_delta,p_valor,0.5941023200267028
+kolmogorov_smirnov_delta,alpha,0.05
+kolmogorov_smirnov_delta,hipotesis_nula,la variable sigue una distribución normal
+kolmogorov_smirnov_delta,hipotesis_alternativa,la variable no sigue una distribución normal
+kolmogorov_smirnov_delta,decision,No rechazar H0
+kolmogorov_smirnov_delta,media,0.641287284144427
+kolmogorov_smirnov_delta,desvio,0.3309359005488864
+kolmogorov_smirnov_delta,interpretacion,Evalúa si la distribución de la ventaja de localía es compatible con una distribución normal.
 chebyshev,k,2
 chebyshev,media,0.641287284144427
 chebyshev,desvio,0.3309359005488864
 chebyshev,limite_inferior,-0.020584516953345733
 chebyshev,limite_superior,1.3031590852422
-chebyshev,cantidad_dentro,26
-chebyshev,n,28
 chebyshev,proporcion_observada,0.9285714285714286
 chebyshev,cota_minima_chebyshev,0.75
+chebyshev,interpretacion,Compara la proporción observada dentro de media ± k desvíos contra la cota mínima garantizada por Chebyshev.
+resumen_empates,partidos_totales,378
+resumen_empates,victorias_locales,169
+resumen_empates,empates,121
+resumen_empates,victorias_visitantes,88
+resumen_empates,porcentaje_victorias_locales,44.70899470899471
+resumen_empates,porcentaje_empates,32.01058201058201
+resumen_empates,porcentaje_victorias_visitantes,23.28042328042328
+resumen_empates,tratamiento_en_binomial,Los empates se excluyen porque la binomial compara solo dos categorías: victoria local vs victoria visitante.
+resumen_empates,tratamiento_en_chi_cuadrado,"Los empates se incluyen porque chi-cuadrado trabaja con la tabla completa victoria, empate y derrota."
+percentiles_delta,tabla,Se exporta por separado desde main.py si se desea
+percentiles_delta,P10,0.34890109890109894
+percentiles_delta,P25,0.4162087912087913
+percentiles_delta,P50_mediana,0.6318681318681318
+percentiles_delta,P75,0.7733516483516485
+percentiles_delta,P90,1.0686813186813189
